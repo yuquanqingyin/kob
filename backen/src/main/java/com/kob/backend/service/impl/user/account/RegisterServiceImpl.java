@@ -42,6 +42,7 @@ public class RegisterServiceImpl implements RegisterService {
 
         if(password.length() == 0 || confirmPassword.length() == 0){
             map.put("error_message", "密码长度不能为0");
+            return map;
         }
 
         if(password.length() > 100){
