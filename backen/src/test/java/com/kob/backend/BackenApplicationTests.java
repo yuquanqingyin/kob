@@ -11,7 +11,7 @@ class BackenApplicationTests {
     @Test
     void contextLoads() {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        System.out.println(passwordEncoder.encode("love1314520"));
+        System.out.println(passwordEncoder.encode("123"));
     }
 
 }
